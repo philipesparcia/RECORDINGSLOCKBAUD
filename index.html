@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player - RECORD</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 350px;
+        }
+        h2 { margin-bottom: 10px; color: #4a4a4a; }
+        p { font-size: 0.9rem; color: #777; margin-bottom: 20px; }
+        audio { width: 100%; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Now Playing</h2>
+        <p>File: RECORD.mp3</p>
+        
+        <audio controls>
+            <source src="RECORD.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+</body>
+</html>
